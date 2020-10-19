@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18342d81d351e32459c0e0f7a8eca1eb, type: 3}
+  m_Name: Projectile_Sniper
+  m_EditorClassIdentifier: 
+  ProjectileType: 1
+  EnemyShootSounds:
+  - {fileID: 2624938805734347373, guid: 82347a6e8e4c9f6478da1713f6b5377b, type: 3}
+  AIProjectileSettings:
+    ProjectileVisual: {fileID: 8844056655318952699, guid: 072c0a85b3845574295ce623b2d1ff5d, type: 3}
+    Target:
+      serializedVersion: 2
+      m_Bits: 256
+    ProjectileDamage: 1
+    ProjectileSpeed: 14.8
+    DistanceUntilDestroyed: 35
+  PlayerProjectileSettings:
+    ProjectileVisual: {fileID: 8844056655318952699, guid: 072c0a85b3845574295ce623b2d1ff5d, type: 3}
+    Target:
+      serializedVersion: 2
+      m_Bits: 1024
+    ProjectileDamage: 1
+    ProjectileSpeed: 26.4
+    DistanceUntilDestroyed: 35
